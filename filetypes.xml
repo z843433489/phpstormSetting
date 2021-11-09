@@ -1,0 +1,19 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping ext="lbi" type="HTML" />
+      <mapping ext="tpl" type="HTML" />
+      <mapping ext="dwt" type="HTML" />
+      <mapping ext="php--201912123" type="PHP" />
+      <mapping pattern="1" type="PLAIN_TEXT" />
+      <mapping pattern="text" type="PLAIN_TEXT" />
+      <mapping pattern="LOG_FILE" type="PLAIN_TEXT" />
+      <mapping ext="mno" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
+      <mapping ext="htaccess" type="PLAIN_TEXT" />
+      <mapping ext="tpl--20200119" type="PLAIN_TEXT" />
+      <mapping ext="php--20191230" type="PLAIN_TEXT" />
+      <removed_mapping ext="tpl" approved="true" type="Smarty" />
+    </extensionMap>
+  </component>
+</application>

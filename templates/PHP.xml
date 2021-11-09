@@ -1,0 +1,27 @@
+<templateSet group="PHP">
+  <template name="echopre" value="echo &quot;&lt;pre&gt;&quot;;print_r($ITERABLE$);echo &quot;&lt;/pre&gt;&quot;;exit;" description="echo &quot;&lt;pre&gt;&quot;;" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="echojson" value="echo &quot;&lt;script&gt;console.log(&quot;.json_encode($ITERABLE$).&quot;);&lt;/script&gt;&quot;;" description="echojson" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="author" value="//+----------------------------------------------------------------------&#10;//| [ WE CAN DO IT MORE SIMPLE ]&#10;//+----------------------------------------------------------------------&#10;//| Copyright (c) 2018-2020 rights reserved.&#10;//+----------------------------------------------------------------------&#10;//| $ITERABLE$&#10;//+----------------------------------------------------------------------&#10;//| Author: knight&#10;//+----------------------------------------------------------------------&#10;//| Date: $DATETIME$&#10;//+----------------------------------------------------------------------" description="文件创建作者" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATETIME" expression="date(&quot;yyyy-MM-dd HH:mm:ss&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="echovar" value="echo &quot;&lt;pre&gt;&quot;;var_dump($ITERABLE$);echo &quot;&lt;/pre&gt;&quot;;exit;" description="echo &quot;&lt;pre&gt;&quot;;" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

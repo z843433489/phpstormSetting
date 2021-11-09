@@ -1,0 +1,23 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="所有位置" />
+    <option name="defaultScopeName" value="所有位置" />
+    <option name="showResultsInSeparateView" value="true" />
+    <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
+    <option name="SEARCH_SCOPE" value="所有位置" />
+    <option name="FILE_MASK" value="*" />
+    <mask>*.css</mask>
+    <mask>*.xml</mask>
+    <mask>*.inc</mask>
+    <mask>*.hphp</mask>
+    <mask>*.php4</mask>
+    <mask>*.php5</mask>
+    <mask>*.module</mask>
+    <mask>*.phtml</mask>
+    <mask>product.php</mask>
+    <mask>*.js</mask>
+    <mask>*.html</mask>
+    <mask>*.php</mask>
+    <mask>*</mask>
+  </component>
+</application>
